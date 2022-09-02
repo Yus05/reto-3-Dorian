@@ -1,0 +1,114 @@
+/*
+Colores
+    Background: #333
+
+    Tarjetas
+        Orange: hsl(31, 77%, 52%)
+        Cyan: hsl(184, 100%, 22%)
+        Dark cyan: hsl(179, 100%, 13%)
+    
+    Texto
+        Blanco al 0.75 de opacidad
+
+Fuentes de la página
+    Títulos
+        https://fonts.google.com/specimen/Big+Shoulders+Display
+        Estilo 600
+    Textos
+        https://fonts.google.com/specimen/Lexend+Deca
+        Estilo 400
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #333;
+  color: hsl(0, 100%, 100%, .75);
+  font-family: 'Big Shoulders Display', cursive;
+}
+
+.container{
+    text-align: left;
+    position: relative;
+    top: 7rem;
+    width: 25.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sedans,
+.suvs,
+.luxury{
+    position: absolute;
+    width: 8.5rem;
+    height: 14rem;
+}
+
+.suvs{
+    left: 8.5rem;
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury{
+    left: 17rem;
+    background-color: hsl(179, 100%, 13%);
+}
+
+.sedans{
+    background-color: hsl(31, 77%, 52%);
+}
+
+.parrafo,
+.botom{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 0.5rem;    
+}
+
+.img{
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+    width: 1.8rem;
+}
+
+.title{
+    position: absolute;
+    top: 2.5rem;
+    left: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.parrafo{
+    position: absolute;
+    top: 6rem;
+    left: 1.5rem;
+    width: 6.5rem;
+}
+
+.botom{
+    position: absolute;
+    top: 12rem;
+    left: 1.5rem;
+    width: 4.2rem;
+    height: 1.2rem;
+    border: none;
+    border-radius: 0.8rem;
+}
+
+.color-buttom-sedans{
+    color: hsl(31, 77%, 52%);
+}
+
+.color-buttom-suvs{
+    color: hsl(184, 100%, 22%);
+}
+
+.color-buttom-luxury{
+    color: hsl(179, 100%, 13%);
+}
+
+
+
